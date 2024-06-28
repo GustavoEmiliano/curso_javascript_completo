@@ -1,18 +1,25 @@
-let a,b,c;
-a = 5;
-b = 6;
-c = 7;
+/*String - Number*/
 
-let pessoa = "Dimitri";
-let pessoa="Dimitri";
+console.log("5 + 5");
+console.log(5 + 5);
 
-document.getElementById("texto").innerHTML =
-"Meu primeiro texto <b>JS</b>!";
+/*Atribuição de valores*/
 
-function minhafuncao(){
-    document.write(5 + 5);
-    document.write(5 + 5);
-    document.write(5 + 5);
-    document.write(5 + 5);
-}
+var a = 1;
+var b = 5;
+var c = a + b;
+console.log(c);
+
+/*Case sensitive*/
+
+var PESSOA = "Gustavo";
+var pessoa = "Emiliano";
+
+console.log(pessoa);
+console.log(PESSOA);
+
+/*Ideal é a utilização do padrão camelCase ou a utilização de _*/
+
+var primeiroNome;
+var primeiro_nome;
 
